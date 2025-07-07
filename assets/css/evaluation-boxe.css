@@ -261,7 +261,7 @@
     display: none;
   }
   .small-nav nav ul {
-    margin-left: 1em;
+    margin-left: 0;
   }
   .small-nav nav ul li {
     padding: 0;
