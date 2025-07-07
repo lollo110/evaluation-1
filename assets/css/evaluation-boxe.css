@@ -262,9 +262,10 @@
   }
   .small-nav nav ul {
     margin-left: 0;
+    justify-content: space-around;
   }
   .small-nav nav ul li {
-    padding: 0;
+    padding: 0 0 2em 0;
     border: 0;
   }
   .small-nav nav ul li:last-child {
@@ -300,7 +301,7 @@
   }
   .right-header h2 {
     text-align: start;
-    margin-left: 1em;
+    margin-left: 5%;
   }
   .img{
     gap: 3em;
@@ -319,9 +320,6 @@
   .small-nav nav ul li{
     font-size: 0.8em;
   }
-  .small-nav nav ul{
-    gap: 2em;
-  }
   .right-header{
     width: 100%;
   }
@@ -330,6 +328,10 @@
   }
   .icone-footer{
     padding-top: 4em;
+  }
+  .texte-main{
+    justify-content: center;
+    gap: 3.5em;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px){
